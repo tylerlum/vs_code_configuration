@@ -1,0 +1,41 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.renderWhitespace": "all",
+    "vim.vimrc.enable": true,
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": [
+            "<leader>",
+            "t"
+        ],
+        "commands": [
+            "workbench.action.quickOpen"
+        ]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "workbench.sideBar.location": "left",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ],
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/sim/stats/**": true,
+        "**/sim/wandb/**": true
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "window.zoomLevel": 1,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
