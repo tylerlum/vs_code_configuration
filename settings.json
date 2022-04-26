@@ -34,8 +34,18 @@
         "**/sim/wandb/**": true
     },
     "workbench.editor.untitled.hint": "hidden",
-    "window.zoomLevel": 1,
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "editor.lineNumbers": "relative",
+    "python.defaultInterpreterPath": "/home/tylerlum/miniconda3/envs/rlgpu/bin/python",
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305"
+    ],
+    "window.zoomLevel": 2
 }
